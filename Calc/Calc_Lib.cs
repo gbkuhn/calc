@@ -23,13 +23,11 @@ namespace Calc
 
             for (int i = 0; i < equation_list.Count; i++)
             {
-
                 if (equation_list[i].Equals("+"))
                 {
                     if (i >= 3)
                     {
                         saved_value = saved_value + Convert.ToInt32(equation_list[i + 1]);
-
                     }
                     else
                     {
@@ -41,7 +39,6 @@ namespace Calc
                     if (i >= 3)
                     {
                         saved_value = saved_value - Convert.ToInt32(equation_list[i + 1]);
-
                     }
                     else
                     {
@@ -53,7 +50,6 @@ namespace Calc
                     if (i >= 3)
                     {
                         saved_value = saved_value*Convert.ToInt32(equation_list[i + 1]);
-
                     }
                     else
                     {
@@ -68,7 +64,7 @@ namespace Calc
                     }
                     else
                     {
-                        saved_value = (Convert.ToInt32(equation_list[i - 1])*Convert.ToInt32(equation_list[i + 1]));
+                        saved_value = (Convert.ToInt32(equation_list[i - 1])/Convert.ToInt32(equation_list[i + 1]));
                     }
                 }
             }
@@ -90,7 +86,6 @@ namespace Calc
         public int get_result()
         {
             return saved_value;
-
         }
     
     }
