@@ -1,0 +1,5 @@
+c:\users\geoffrey.kuhn\documents\visual studio 2013\Projects\Calc\Calc\bin\Debug\Calc.dll
+c:\users\geoffrey.kuhn\documents\visual studio 2013\Projects\Calc\Calc\bin\Debug\Calc.pdb
+c:\users\geoffrey.kuhn\documents\visual studio 2013\Projects\Calc\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
+c:\users\geoffrey.kuhn\documents\visual studio 2013\Projects\Calc\Calc\obj\Debug\Calc.dll
+c:\users\geoffrey.kuhn\documents\visual studio 2013\Projects\Calc\Calc\obj\Debug\Calc.pdb
